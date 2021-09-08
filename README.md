@@ -28,15 +28,18 @@ Complete the following tasks:
 
 ### 1 - Sentiment Analysis
 
-Use the [newsapi](https://newsapi.org/) to pull the latest news articles for Bitcoin and Ethereum and create a DataFrame of sentiment scores for each coin.
+Using the [newsapi](https://newsapi.org/) I pulled the latest news articles for Bitcoin and Ethereum and created a DataFrame of sentiment scores for each coin.
 
 I used descriptived statistics to answer the following questions:
 
 > Which coin had the highest mean positive score?
->
+>   Bitcoin with score of .068100
+
 > Which coin had the highest negative score?
->
+>   Ethereum with a max compound score of .735100
+
 > Which coin had the highest positive score?
+>   Ethereum with score of .167000
 
 ---
 
@@ -46,7 +49,7 @@ In this section, I used NLTK and Python to tokenize text, find n-gram counts, an
 
 #### Tokenize
 
-Be sure to:
+I completed the following tasks:
 
 1. Lowercase each word.
 2. Remove punctuation.
@@ -82,11 +85,5 @@ In this section, I built a named entity recognition model for both coins and vis
 ## Resources
 
 [Vader Sentiment Analysis](http://www.nltk.org/howto/sentiment.html)
-
----
-
-## Hints and Considerations
-
-The free developer version of the News API limits the total daily requests, so be careful not to exceed the free limits.
 
 ---
